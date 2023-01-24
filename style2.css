@@ -1,0 +1,116 @@
+/* Imports */
+
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+/* Header */
+
+nav{
+    height: 65px;
+}
+
+.navbar-brand{
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+}
+
+/* !!Menu Itens!! */
+
+#navbarNavDropdown ul{
+    list-style-type: none;
+}
+
+#navbarNavDropdown li{
+    width: 300px;
+}
+
+/* User Section */
+
+#firstSquare{
+    background-color: white;
+    width: 37px;
+    height: 37px;
+}
+
+#secondSquare{
+
+}
+
+#user{
+    background: #232323;
+    height: 265px;
+}
+
+/* Dropdown Menus */
+
+.btn-group{
+    position: absolute;
+}
+
+.dep{
+    height: 100px;
+}
+
+.dep button{
+    margin-left: 15px;
+    padding: 40px 0;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 18px;
+    font-weight: 274;
+}
+
+.dep-button{
+    margin-left: 15px;
+    padding: 40px 0;
+    color: white;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 18px;
+    font-weight: 274;
+}
+
+#dep1{
+    background-color: #343434;
+    top: 265px;
+    color: #232323;
+}
+
+#dep2{
+    background-color: #464646;
+    top: 365px;
+    color
+}
+
+#dep3{
+    background-color: #5A5A5A;
+    top: 465px;
+}
+
+#dep4{
+    background-color: #7C7C7C;
+    top: 565px;
+}
+
+#dep5{
+    background-color: #AEAEAE;
+    top: 665px;
+}
+#dep5 button{
+    color: #232323;
+}
+
+#dep6{
+    background-color: #D2D2D2;
+    top: 765px;
+}
+
+#dep6 button{
+    color: #232323;
+}
+
+/* Main */
+
+body{
+    background-color: black;
+    color: white;
+}
