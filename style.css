@@ -1,0 +1,162 @@
+/* ### Imports ### */
+
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+/* ### Navbar  ### */
+
+nav{
+    padding-top: 15%;
+    padding-bottom: 5px;
+    position: absolute !important;
+    display: block !important;
+    height: 65px;
+    align-items: flex-start;
+    background-color: #232323;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* - Dropdown Menu - */
+
+#customDropdown{
+    padding: 0 !important;
+    position: absolute;
+    width: 270px;
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 274;
+    font-size: 18px;
+}
+
+#user{
+    background-color: #232323;
+}
+
+#customDropdown a{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#dep1{
+    background-color: #343434;
+}
+
+#dep2{
+    background-color: #464646;
+}
+
+#dep3{
+    background-color: #5A5A5A;
+}
+
+#dep4{
+    background-color: #7C7C7C;
+}
+
+#dep5{
+    background-color: #AEAEAE;
+}
+
+#dep6{
+    background-color: #D2D2D2;
+}
+
+#leave{
+    background-color: #ffff;
+}
+
+.depCategory{
+    height: 100px;
+    padding-left: 10px;
+}
+
+.innerItem{
+    align-items: center;
+    background-color: #EEFF49;
+    border-style: none;
+}
+
+.innerItem li{
+    height: 50px;
+}
+
+.user{
+    height: 180px;
+    padding-left: 10px;
+}
+
+.show{
+    background-color: #EEFF49 !important;
+}
+
+.nav-link:focus{
+    text-decoration: underline;
+}
+
+/* - Icons and Logo - */
+
+.icons{
+    position: absolute;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    left: 100%;
+    right: 0;
+    text-align: center;
+}
+
+#searchButton{
+    margin-top: 6px;
+}
+
+#cartButton{
+    margin-left: 15%;
+}
+
+#logo{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+/* - Search Bar - */
+
+#searchNav{
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 100%;
+    padding-bottom: 5%;
+}
+
+#searchNav .show{
+    background-color: #232323 !important;
+}
+
+#searchNav button{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    bottom: 0;
+    left: 60%;
+    right: 0;
+    text-align: center;
+    width: 10px;
+    height: 10px;
+}
+
+#navbarSearch{
+
+}
