@@ -43,18 +43,22 @@ nav{
 }
 
 #dep1{
+    color: #ffff;
     background-color: #343434;
 }
 
 #dep2{
+    color: #ffff;
     background-color: #464646;
 }
 
 #dep3{
+    color: #ffff;
     background-color: #5A5A5A;
 }
 
 #dep4{
+    color: #ffff;
     background-color: #7C7C7C;
 }
 
@@ -91,6 +95,7 @@ nav{
 }
 
 .show{
+    color: black !important;
     background-color: #EEFF49 !important;
 }
 
@@ -148,13 +153,22 @@ nav{
     position: absolute;
     margin-left: auto;
     margin-right: auto;
-    top: 0;
-    bottom: 0;
-    left: 60%;
+    bottom: 43px;
+    left: 50%;
     right: 0;
-    text-align: center;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+button img .show {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 100px !important;
+    left: 50%;
+    right: 0;
+    width: 30px;
+    height: 30px;
 }
 
 #navbarSearch{
