@@ -515,3 +515,13 @@ footer h5{
     color: #fff;
     font-weight:600;
 }
+
+/* - Footer Dropdown Menus - */
+
+footer .dropdown{
+    
+}
+
+footer .dropdown .btn{
+    background-color: #232323 !important;
+}
