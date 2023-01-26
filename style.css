@@ -293,7 +293,7 @@ button img .show {
 
 #secondCarousel{
     position: absolute;
-    left: 12px;
+    left: 15px;
     margin: auto;
     text-align: center;
 }
@@ -340,11 +340,178 @@ button img .show {
 
 .carousel-caption img{
     position: absolute;
-    width: 30px !important;
-    bottom: -385px;
+    width: 25px !important;
+    bottom: -380px;
     left: 240px;
 }
 
 #newProduct{
+    position: absolute;
+    color: #232323;
+    background-color: #EEFF49;
+    padding: 3px 5px 3px 5px;
+    bottom: -400px;
+    left: -5px;
+}
+
+/* New Container */
+
+#newInfoContainer{
+    margin-top: 620px;
+    padding-left: 0;
+}
+
+#newInfoContainer a span{
+    position: absolute;
+    text-decoration: underline;
+    color: #ffff;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    margin-top: -165px;
+    margin-left: 70%;
+}
+
+#newInfoContainer2{
+    padding-left: 0;
+}
+
+#newInfoContainer2 a span{
+    position: absolute;
+    text-decoration: underline;
+    color: #ffff;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    margin-top: -165px;
+    margin-left: 60%;
+}
+
+/* - Third Carousel - */
+
+#thirdCarousel{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+#thirdCarousel img{
+    width: 335px;
+}
+
+#thirdCarousel p{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 200;
+    text-align: left;
+    margin-right: 20px;
+}
+
+#newProduct2{
+    position: absolute;
+    color: #232323;
+    background-color: #EEFF49;
+    padding: 3px 5px 3px 5px;
+    bottom: -390px;
+    left: -5px;
+}
+
+
+/* - New Container 2 - */
+
+#newInfoContainer3{
+    margin-top: 20px;
+    padding-left: 0;
+}
+
+#newInfoContainer3 a span{
+    position: absolute;
+    text-decoration: underline;
+    color: #ffff;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: large;
+    font-weight: 200;
+    margin-top: -165px;
+    margin-left: 60%;
+}
+
+/* Pay Info Carousel */
+
+#payInfoCarousel{
+    display: block;
+    margin-top: 50px !important;
+    margin: auto;
+    width: 75%;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 15px;
+}
+
+#payInfoCarousel p{
+    display: inline;
+    text-align: left;
+    margin-left: 10px;
+}
+
+#payCarousel .carousel-indicators button{
+    display: block; 
+    background-color: #232323;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+
+#payCarousel .carousel-indicators{
+    display: flex; 
+    position: absolute;
+    top: 65px;
+}
+
+/* ### Footer ### */
+
+footer{
+    color: #ffff;
+    background-color: #232323;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+footer h5{
+    text-decoration: underline;
+}
+
+/* - Newsletter - */
+
+.newsletter{
+    padding: 80px 0;
+    background: #f2f2f2;
+}
     
+.newsletter .content{
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+}
+
+.newsletter .content h2{
+    color: #243c4f;
+    margin-bottom: 40px; 
+}
+
+.newsletter .content .form-control{
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+}
+
+.newsletter .content.form-control:focus{
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+
+.newsletter .content .btn{
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
 }
