@@ -23,6 +23,19 @@ nav{
 
 /* - Dropdown Menu - */
 
+.navbar-toggler:focus #menuIcon{
+    position: absolute;
+    content: url(resources/svg/close-svgrepo-com.svg);
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    padding-left: 0;
+}
+
+.navbar-toggler #menuIcon{
+    padding-left: 20px ;
+}
+
 #customDropdown{
     padding: 0 !important;
     position: absolute;
@@ -90,7 +103,8 @@ nav{
 }
 
 .user{
-    height: 180px;
+    padding-top: 20px;
+    height: 150px;
     padding-left: 10px;
 }
 
@@ -171,6 +185,166 @@ button img .show {
     height: 30px;
 }
 
-#navbarSearch{
+/* - User Info - */
 
+#userInfo{
+    color: #ffff;
+    font-size: 14px;
+}
+
+#username{
+    color: #EEFF49;
+    font-size: 18px;
+}
+
+#squares{
+    width: 70px !important;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#greySquare{
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+#yellowSquare{
+    transform: rotate(15deg);
+    position: absolute;
+    right: 28px;
+    width: 70px;
+    height: 70px;
+    border-color: #EEFF49;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 8px;
+    -moz-border-image: url() 20 5 5 5 repeat repeat;
+    -webkit-border-image: url() 20 5 5 5 repeat repeat;
+    -o-border-image: url() 20 5 5 5 repeat repeat;
+    border-image: url() 20 5 5 5 repeat repeat;
+    content-visibility: hidden;
+}
+
+/* ### Main ### */
+
+/* - Main Carousel - */
+
+/* - Department Grid - */
+
+#depImgGrid{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#depImgGrid .col{
+    width: 163px;
+    height: 163px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 8px;
+}
+
+#dep1img{
+    background-image: url(resources/images/Banner-home-departamento-1.png);
+}
+
+#dep2img{
+    background-image: url(resources/images/Banner-home-departamento-2.png);
+}
+
+#dep3img{
+    background-image: url(resources/images/Banner-home-departamento-3.png);
+}
+
+#dep4img{
+    background-image: url(resources/images/Banner-home-departamento-4.png);
+}
+
+#dep5img{
+    background-image: url(resources/images/Banner-home-departamento-5.png);
+}
+
+#dep6img{
+    background-image: url(resources/images/Banner-home-departamento-6.png);
+}
+
+.imgDesc{
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffff;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 50%;
+    bottom: -43%;
+    text-align: center;
+}
+
+#depImgGrid a{
+    text-decoration: none;
+}
+
+/* - Second Carousel - */
+
+#secondCarousel{
+    position: absolute;
+    left: 12px;
+    margin: auto;
+    text-align: center;
+}
+
+#secondCarousel h1{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 200;
+    margin-left: -50px;
+}
+
+#secondCarousel .carousel-inner img,
+#secondCarousel .carousel-item img{
+    width: 350px;
+}
+
+#secondCarousel p{
+    font-family: 'SF Pro Display', sans-serif;
+    font-weight: 200;
+    text-align: left;
+}
+
+.carousel-caption{
+    top: 0;
+    bottom: auto;
+}
+
+.price{
+    text-align: right;
+    float: right;
+    position: relative;
+    transform: translate(-50%, -50%);
+    padding-top: 10%;
+    margin-right: -40px;
+}
+
+.price1{
+    color: #EEFF49;
+    padding-right: 15px;
+}
+
+.price2{
+    color: #ffff;
+}
+
+.carousel-caption img{
+    position: absolute;
+    width: 30px !important;
+    bottom: -385px;
+    left: 240px;
+}
+
+#newProduct{
+    
 }
