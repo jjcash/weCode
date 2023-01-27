@@ -185,6 +185,11 @@ button img .show {
     height: 30px;
 }
 
+input{
+    padding-bottom: 10px !important;
+    margin-bottom: 10px !important;
+}
+
 /* - User Info - */
 
 #userInfo{
@@ -445,10 +450,15 @@ button img .show {
     font-size: 15px;
 }
 
+#payInfoCarousel img{
+    padding-bottom: 25px;
+}
+
 #payInfoCarousel p{
     display: inline;
     text-align: left;
     margin-left: 10px;
+    padding-bottom: 15px;
 }
 
 #payCarousel .carousel-indicators button{
@@ -477,51 +487,123 @@ footer h5{
     text-decoration: underline;
 }
 
+#footerLogo{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
 /* - Newsletter - */
 
-.newsletter{
-    padding: 80px 0;
-    background: #f2f2f2;
-}
-    
-.newsletter .content{
-    max-width: 650px;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-    z-index: 2; 
+.newsletter input{
+    margin-left: 20px;
+    border-radius: 0;
 }
 
-.newsletter .content h2{
-    color: #243c4f;
-    margin-bottom: 40px; 
+.newsletter .btn{
+    width: 90px;
+    margin-left: 10px;
+    margin-right: 40px;
+    border-radius: 0;
+    background-color: #EEFF49;
 }
 
-.newsletter .content .form-control{
-    height: 50px;
-    border-color: #ffffff;
-    border-radius:0;
+.newsletter p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
 }
 
-.newsletter .content.form-control:focus{
-    box-shadow: none;
-    border: 2px solid #243c4f;
-}
-
-.newsletter .content .btn{
-    min-height: 50px; 
-    border-radius:0;
-    background: #243c4f;
-    color: #fff;
-    font-weight:600;
+.newsletter h5{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
 }
 
 /* - Footer Dropdown Menus - */
 
-footer .dropdown{
-    
+#socialMediaSection h5{
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+#socialMedia{
+    display: inline;
+}
+
+#socialMedia .col-4{
+    width: 24px;
+    margin-left: 20px;
+}
+
+.footerDropdown{
+    margin-left: 10px;
+    text-align: left;
+}
+
+.footerDropdownSub{
+    border: none !important;
 }
 
 footer .dropdown .btn{
     background-color: #232323 !important;
+}
+
+#firstFooterDropdown{
+    margin-top: 40px;
+
+}
+
+#lastFooterDropdown{
+    padding-bottom: 40px;
+}
+
+#dropdownMenuButton1::after{
+    position: absolute;
+    bottom: 50%;
+    right: 20px;
+    padding-bottom: 0;
+}
+
+/* - Certificates - */
+
+#certificates{
+    color: #232323;
+    background-color: #ffff;
+    margin: 0;
+    text-align: center;
+}
+
+#certificates p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#certificates img{
+    padding-bottom: 40px;
+}
+
+/* - Rights Section - */
+
+#rights{
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-size: 10px;
+}
+
+#rights p{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+/* - Bottom - */
+
+#bottom{
+    background-color: #142032;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
